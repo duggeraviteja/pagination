@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +21,7 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "mongoose": "^5.12.13",
+    "node": "^16.1.0",
     "node-fetch": "^2.6.1"
   }
 }

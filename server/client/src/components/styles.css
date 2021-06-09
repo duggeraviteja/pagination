@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.state-bgm:hover{
+    background: linear-gradient(to right, #aa4090, #b342f4) !important;
+    color:#fff;
+}
+
+.active-bgm:hover{
+    background: linear-gradient(to right, #373b44, #4286f4) !important;
+    color: #fff;}
+
+.recovered-bgm:hover{
+    background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+    color: #fff;}
+
+.confirmed-bgm:hover{
+
+    background: linear-gradient(to right, #e6a85e, #7d56ff) !important;
+    color: #fff;
+}
+
+
+
+
+table, th, td {
+    border: 2px solid rgb(31, 126, 170) !important;
+  }
+
+
+  .heading {
+    background: linear-gradient(30deg, #e9d7a4  30%, rgba(0,0,0,0) 45%), linear-gradient(135deg, rgb(166, 111, 208)  50%, #69dac9 75%);
+     color:#fff;
+     font-size: 1.3rem;
+ }  
+
+
+ .btn-prev-next{
+     border-radius: 20px;
+     margin: 10px;
+     padding: 10px;
+     background: #c544ba;
+     color: #fff;
+ }
+
+
+ .p-btn{
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.7s;
+    color:#3498db;
+    text-decoration: none;
+    background: #2ac59c;
+    color:#ffff;
+}
+
+
+.loader{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
